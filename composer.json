@@ -1,0 +1,21 @@
+{
+    "name": "mekegi/yii-sms",
+    "type": "yii-extension",
+    "version": "1.0.0",
+    "description": "Yii extension, for sending sms",
+    "keywords": ["sms", "yii", "yii-extension"],
+    "homepage": "http://github.com/mekegi/yii-sms",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arsen Abdusalamov",
+            "email": "duburlan@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": ["behavior/", "gate/", "Sender.php", "SmsExeption.php"]
+    }
+}
