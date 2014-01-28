@@ -24,8 +24,9 @@ add to composer.json
 Config
 ------
 add to config.php
+
     'components' => [
-    ...
+
         'sms' => [
             'class' => 'ext.sms.Sender',
             'gate' => 'Pilot',// available sms gates ['Dummy', 'SmsRu', 'Pilot']
@@ -41,7 +42,6 @@ add to config.php
             // for debuggung, if set debugPhone - all sms send to this phone
             'debugPhone' => '791234567788',
         ],
-    ...
 
 Usage
 -----
